@@ -15,7 +15,7 @@ public class Room implements Serializable {
     Point bl;
     Point tr;
     int minSize = 4;
-    int maxSize = 10;
+    int maxSize = 20;
 
     Room(Random RANDOM) {
         this.bl = new Point(uniform(RANDOM, margin, WIDTH - margin), uniform(RANDOM, margin, HEIGHT - margin));

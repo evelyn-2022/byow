@@ -452,7 +452,6 @@ public class Engine {
     public static void main(String[] args) {
         Engine e = new Engine();
         e.interactWithKeyboard();
-        //e.interactWithInputString("N11431S");
         e.runEngine();
     }
 }
